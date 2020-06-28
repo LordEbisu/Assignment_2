@@ -8,7 +8,7 @@ def jackpot(CountJackpot,previous_count): #Takes input for jackpot and previous 
 
 import random
 
-def unmatch(): # function to create mismatch rolling
+def unmatch(): # function to create mismatch roll
     slot_machine = []
     cards = ['Cherry', '7', 'J', '10', 'Apple', 'A', 'Q','M']
     for i in range (0, 3):
